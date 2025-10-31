@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1D7B3A962EB57565008158EF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1D7B3A952EB57560008158EF /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1D7B3A772EB5722C008158EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		1D7B3A692EB5722B008158EF /* MetalPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7B3A762EB5722C008158EF /* MetalPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7B3A802EB5722C008158EF /* MetalPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D7B3A952EB57560008158EF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		1D7B3A602EB5722B008158EF = {
 			isa = PBXGroup;
 			children = (
+				1D7B3A952EB57560008158EF /* README.md */,
 				1D7B3A6B2EB5722B008158EF /* MetalPlayground */,
 				1D7B3A792EB5722C008158EF /* MetalPlaygroundTests */,
 				1D7B3A832EB5722C008158EF /* MetalPlaygroundUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D7B3A962EB57565008158EF /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
